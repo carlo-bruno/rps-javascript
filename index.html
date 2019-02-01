@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock, Paper, Scissors - THE GAME!</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Player: <span id="playerScore">0</span></h2>
+      <h3>High Score: <span id="playerHiScore">0</span></h3>
+      <div class="imgbox" id="playerimagebox">
+        <img id="playerImage" src="" alt="" />
+      </div>
+      <div>
+        <button class="weaponBtn" id="rock">ROCK</button>
+        <button class="weaponBtn" id="paper">PAPER</button>
+        <button class="weaponBtn" id="scissors">SCISSORS</button>
+        <button class="weaponBtn" id="lizard">LIZARD</button>
+        <button class="weaponBtn" id="spock">SPOCK</button>
+        <br />
+        <button id="go">GO!</button>
+      </div>
+    </section>
+    <section id="mid">
+      <h2 id="count">3</h2>
+    </section>
+    <section>
+      <h2>AI: <span id="aiScore">0</span></h2>
+      <h3>High Score: <span id="aiHiScore">0</span></h3>
+      <div class="imgbox" id="aiimagebox">
+        <img id="aiImage" src="" alt="" />
+      </div>
+    </section>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

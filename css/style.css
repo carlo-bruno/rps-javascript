@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1em;
+  text-align: center;
+}
+
+section {
+  display: inline-block;
+  border: 1px solid black;
+  width: 40%;
+  height: 80vh;
+  vertical-align: top;
+}
+
+#mid {
+  width: 15%;
+}
+
+.imgbox {
+  width: 75%;
+  height: 60%;
+  margin: auto;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: hotpink;
+}
+
+.imgbox img {
+  width: 80%;
+  max-width: 100%;
+}
